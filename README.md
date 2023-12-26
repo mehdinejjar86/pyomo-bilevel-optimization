@@ -31,7 +31,7 @@ $$
 & Mz_{jt} - x_{jt} \geq 0, \quad \forall j,t \\
 & x_{jt} \geq 0, \quad v_{j} = (v_{j1}, \ldots, v_{jT}) \in V_{j}, \quad z_{jt} \in \{0, 1\}, \quad \forall j,t \\
 & \min_{d,I,S,y} \quad \sum_{j=1}^{n}\sum_{t=1}^{T} p_{jt}d_{jt} \\
-\text{subject to} \quad I_{jt} - I_{j,t-1} + d_{jt} - S_{jt} = x_{jt}, \quad \forall j,t \\
+& \text{subject to} \quad & I_{jt} - I_{j,t-1} + d_{jt} - S_{jt} = x_{jt}, \quad \forall j,t \\
 & & Mt_{y} + I_{t} - \sum_{j=1}^{n} B_{t}l_{jt} \geq 0, \quad \forall t \\
 & & S_{jt} \geq 0, \quad I_{jt} \geq 0, \quad I_{j0} = 0, \quad \forall j,t \\
 & & d_{t} = (d_{1t}, \ldots, d_{nt}) \in D_{t}(v), \quad \forall t
