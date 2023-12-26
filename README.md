@@ -64,4 +64,5 @@ $$
 
 ## References
 
-
+[1]J. F. Bard, Practical Bilevel Optimization. 1998. doi: https://doi.org/10.1007/978-1-4757-2836-1.
+‌
