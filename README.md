@@ -22,6 +22,30 @@ M & : \text{large constant}
 \end{align*}
 $$
 
+## Sets
+
+$$
+\begin{align*}
+V_{j} & : \text{set constraining advertising expenditures for product } j \\
+D_{t}(v) & : \text{set in which the } n\text{-dimensional vector } d_{t} \text{ lies in period } t
+\end{align*}
+$$
+
+## Decision Variables
+
+$$
+\begin{align*}
+x_{jt} & : \text{amount of product } j \text{ manufactured in period } t \text{ (leader variable)} \\
+v_{jt} & : \text{amount spent on advertising product } j \text{ in period } t \text{ (leader variable)} \\
+S_{jt} & : \text{amount of shortage of product } j \text{ in period } t \text{ (follower variable)} \\
+I_{jt} & : \text{amount of inventory of product } j \text{ at the end of period } t; \text{ it is assumed that the initial inventory } I_{j0} \text{ is } 0 \text{ (follower variable)} \\
+d_{jt} & : \text{leader's (inexact) demand forecast (alternatively, the customer's demand) for product } j \text{ in period } t \text{ (follower variable)} \\
+y_{t} & : \text{binary variable equal to } 1 \text{ if inventory space is rented in period } t; 0 \text{ otherwise} \\
+z_{jt} & : \text{binary variable equal to } 1 \text{ if a setup cost is incurred for product } j \text{ in period } t; 0 \text{ otherwise}
+\end{align*}
+$$
+
+Given the above assumptions, and including setup costs and upper limits on inventory, we get the following mixed-integer linear bilevel programming problem (BLPP).
 
 $$
 \begin{align*}
@@ -37,4 +61,7 @@ $$
 & & d_{t} = (d_{1t}, \ldots, d_{nt}) \in D_{t}(v), \quad \forall t
 \end{align*}
 $$
+
+## References
+
 
