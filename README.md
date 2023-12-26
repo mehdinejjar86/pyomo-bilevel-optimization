@@ -18,4 +18,20 @@ In the model, the manufacturer is assigned the role of Ieader and begins by sele
 - $`I̅_{t}`$: maximum amount of free inventory space available in period t
 - $`M`$: large constant
 
+$$
+\begin{align*}
+a_{ijt} & : \text{amount of resource } i \text{ required to make a unit of product } j \text{ in period } t \\
+b_{it} & : \text{amount of resource } i \text{ available in period } t \\
+p_{jt} & : \text{selling price of product } j \text{ in period } t \\
+c_{jt} & : \text{unit cost of manufacturing product } j \text{ in period } t \\
+h_{jt} & : \text{unit holding cost of product } j \text{ in period } t \\
+s_{jt} & : \text{unit cost of subcontracting product } j \text{ in period } t \\
+r_{t} & : \text{cost of renting warehouse space in period } t \\
+f_{jt} & : \text{setup cost for product } j \text{ in period } t \\
+B_{j} & : \text{relative measure of space occupied by product } j \text{ normalized to product 1} \\
+\bar{I}_{t} & : \text{maximum amount of free inventory space available in period } t \\
+M & : \text{large constant}
+\end{align*}
+$$
+
 
