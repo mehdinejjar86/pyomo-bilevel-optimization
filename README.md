@@ -36,6 +36,5 @@ $$
 & S_{jt} \geq 0, \quad I_{jt} \geq 0, \quad I_{j0} = 0, \quad \forall j,t \\
 & d_{t} = (d_{1t}, \ldots, d_{nt}) \in D_{t}(v), \quad \forall t
 \end{align*}
-
 $$
 
