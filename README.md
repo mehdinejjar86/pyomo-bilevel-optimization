@@ -6,16 +6,16 @@ In the model, the manufacturer is assigned the role of Ieader and begins by sele
 
 ## Parameters
 
-- `a_{ijt}`: amount of resource i required to make a unit of product j in period t
-- `b_{it}`: amount of resource i available in period t
-- `p_{jt}`: selling price of product j in period t
-- `c_{jt}`: unit cost of manufacturing product j in period t
-- `h_{jt}`: unit holding cost of product j in period t
-- `s_{jt}`: unit cost of subcontracting product j in period t
-- `r_{t}`: cost of renting warehouse space in period t
-- `f_{jt}`: setup cost for product j in period t
-- `B_{j}`: relative measure of space occupied by product j normalized to product 1
-- `I̅_{t}`: maximum amount of free inventory space available in period t
-- `M`: large constant
+- $`a_{ijt}`$: amount of resource i required to make a unit of product j in period t
+- $`b_{it}`$: amount of resource i available in period t
+- $`p_{jt}`$: selling price of product j in period t
+- $`c_{jt}`$: unit cost of manufacturing product j in period t
+- $`h_{jt}`$: unit holding cost of product j in period t
+- $`s_{jt}`$: unit cost of subcontracting product j in period t
+- $`r_{t}`$: cost of renting warehouse space in period t
+- $`f_{jt}`$: setup cost for product j in period t
+- $`B_{j}`$: relative measure of space occupied by product j normalized to product 1
+- $`I̅_{t}`$: maximum amount of free inventory space available in period t
+- $`M`$: large constant
 
 
